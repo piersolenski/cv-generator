@@ -1,0 +1,22 @@
+// Extends
+// =======
+// Use these to extend your blocks with extra attributes
+// without bloating your stylesheets via mixins.
+// i.e. .block__element { @extend .hide-text }
+
+.hide-text {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.pseudo-element {
+    position: absolute;
+    display: block;
+    content: '';
+}
+
+.unstyled-list {
+    padding: 0;
+    list-style: none;
+}

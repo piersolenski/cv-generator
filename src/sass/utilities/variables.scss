@@ -1,0 +1,10 @@
+// Colors
+$white: #fff;
+$font: rgba(0,0,0,.8);
+$base: #476F86;
+$base-medium: lighten(desaturate( adjust-hue( $base, 3deg ), 5 ), 33);
+$base-light: lighten(desaturate( adjust-hue( $base, 9deg ), 5 ), 54);
+
+// Measurements
+$base-font-size: 1em;
+$baseline: 1.2rem;

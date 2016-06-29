@@ -1,0 +1,63 @@
+.contact {
+    line-height: $baseline*1.5;
+    margin-bottom: $baseline;
+
+}
+
+.contact__item {
+    font-weight: 900;
+    display: block;
+    text-decoration: none;
+    display: flex;
+    margin-bottom: $baseline/2;
+    color: $base;
+}
+
+.contact__icon {
+    background-repeat: no-repeat;
+    display: block;
+    width: $baseline*1.5;
+    height: $baseline*1.5;
+    background: $base;
+    margin-right: $baseline/3;
+    border-radius: 50%;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.contact__icon--website {
+    background-image: url("../svg/website.svg");
+}
+
+.contact__icon--email {
+    background-image: url("../svg/email.svg");
+}
+
+.contact__icon--phone {
+    background-image: url("../svg/website.svg");
+}
+
+.contact__icon--github {
+    background-image: url("../svg/github.svg");
+}
+
+.contact__icon--linked-in {
+    background-image: url("../svg/linked-in.svg");
+}
+
+.contact__icon--codepen {
+    background-image: url("../svg/codepen.svg");
+}
+
+.contact__icon--spotify {
+    background-image: url("../svg/spotify.svg");
+}
+
+.contact__icon--soundcloud {
+    background-image: url("../svg/soundcloud.svg");
+}

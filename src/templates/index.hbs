@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>{{name}} Resume</title>
+        <link rel="stylesheet" href="./css/styles.css">
+        <meta name="description" content="{{name}} Resume">
+    </head>
+    <body>
+        <div class="section section--left">
+            <header class="header">
+                <img class="avatar" src="img/avatar.jpg" alt="{{name}}" />
+                <hgroup class="header__hgroup">
+                    <h1>{{name}}</h1>
+                    <h2>{{jobTitle}}</h2>
+                </hgroup>
+            </header>
+            <h3><span>Hello</span></h3>
+            {{{statement}}}
+            <h3><span>Work</span></h3>
+            {{#each jobs}}
+            <div class="item">
+                <hgroup class="item__hgroup">
+                    <h4>{{company}} <span class="item__highlight"> / {{jobTitle}}</span></h4>
+                    <h4>{{startDate}} - {{finishDate}}</h4>
+                </hgroup>
+                {{{description}}}
+            </div>
+            {{/each}}
+            <h3><span>Education</span></h3>
+            {{#each education}}
+            <div class="item">
+                <hgroup class="item__hgroup">
+                    <h4>{{establishment}}</h4>
+                    <h4>{{startDate}} - {{finishDate}}</h4>
+                </hgroup>
+                <p>{{{description}}}</p>
+            </div>
+            {{/each}}
+        </div>
+        <div class="section section--right">
+            <h3><span>Contact</span></h3>
+            <nav class="contact">
+                {{#each contact}}
+                <a class="contact__item" href="{{link}}" target="_blank" title="{{method}}">
+                    <span class="contact__icon contact__icon--{{method}}"></span>{{name}}
+                </a>
+                {{/each}}
+            </nav>
+            <h3><span>Skills</span></h3>
+            <table class="skills">
+                {{#each skills}}
+                <tr>
+                    <td class="skills__skill">{{skill}}</td>
+                    <td class="skills__level">
+                        <span class="skills__percent" style="width: {{level}}">
+                    </td>
+                </tr>
+                {{/each}}
+            </table>
+            <h3><span>Clients</span></h3>
+            <ul class="list">
+                {{#each clients}}
+                <li class="clients__client">{{this}}</li>
+                {{/each}}
+            </ul>
+            <h3><span>Interests</span></h3>
+            <ul class="list">
+                {{#each interests}}
+                <li class="clients__client">{{this}}</li>
+                {{/each}}
+            </ul>
+            <h3><span>References</span></h3>
+            <p>Available on request</p>
+        </div>
+    </body>
+</html>

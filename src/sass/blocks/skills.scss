@@ -1,0 +1,24 @@
+.skills {
+    font-weight: 900;
+    margin-bottom: $baseline;
+}
+
+.skills__level {
+    width: 42%;
+
+}
+
+.skills__skill {
+    width: 58%;
+}
+
+.skills__level {
+    color: $base;
+    font-size: 1.8em;
+}
+
+.skills__percent {
+    height: $baseline/4;
+    background: $base;
+    display: block;
+}

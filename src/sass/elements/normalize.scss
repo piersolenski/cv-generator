@@ -1,0 +1,25 @@
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+
+}
+
+body {
+    border-top: $baseline*2 solid $base;
+    border-bottom: $baseline*2 solid $base;
+    display: flex;
+    color: $font;
+    font-family: "Lato", serif;
+    font-weight: 100;
+    width: 49.602rem;
+    height: 70.152rem;
+    line-height: $baseline;
+    font-size: 12px;
+    margin: $baseline auto;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}

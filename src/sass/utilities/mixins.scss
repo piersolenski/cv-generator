@@ -1,0 +1,42 @@
+// Min Width Breakpoint
+@mixin min-width($breakpoint) {
+    @media only screen and (min-width: $breakpoint) {
+        @content;
+    }
+}
+
+// Max Width Breakpoint
+@mixin max-width($breakpoint) {
+    @media only screen and (max-width: ($breakpoint * 16 - 1) / 16) {
+        @content;
+    }
+}
+
+// Link Colours
+@mixin link-colors($normal, $hover: false, $active: false, $visited: false, $focus: false) {
+    color: $normal;
+
+    @if $visited {
+        &:visited {
+            color: $visited;
+        }
+    }
+
+    @if $focus {
+        &:focus {
+            color: $focus;
+        }
+    }
+
+    @if $hover {
+        &:hover {
+            color: $hover;
+        }
+    }
+
+    @if $active {
+        &:active {
+            color: $active;
+        }
+    }
+}

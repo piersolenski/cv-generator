@@ -1,0 +1,70 @@
+* {
+    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-print-color-adjust: exact;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 3em;
+    color: $base;
+}
+
+h2 {
+    font-size: 1.52em;
+    color: $base-medium;
+    letter-spacing: .2rem;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: $base;
+    font-size: 1.3125em;
+    letter-spacing: $baseline/8;
+    margin: 0 0 $baseline/2;
+    position: relative;
+    z-index: 10;
+
+    &:before {
+        @extend .pseudo-element;
+        background: $base-medium;
+        height: 1px;
+        width: 100%;
+        margin-top: .625rem;
+        z-index: -1;
+
+    }
+
+    span {
+        background: $white;
+        padding-right: $baseline/4;
+
+        .section--right & {
+            background: $base-light;
+        }
+    }
+}
+
+h4 {
+    font-size: 1.125em;
+    margin: 0 0 $baseline/4;
+    font-family: "Effra";
+}
+
+ul {
+    margin: 0 0 $baseline;
+    line-height: $baseline * 1.5;
+}
+
+p {
+    margin: 0 0 $baseline/2;
+
+    &:last-of-type {
+        margin-bottom: $baseline;
+    }
+}

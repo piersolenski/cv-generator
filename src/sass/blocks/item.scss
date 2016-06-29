@@ -1,0 +1,13 @@
+.item {
+    text-align: justify;
+}
+
+.item__hgroup {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item__highlight {
+    color: $base;
+    padding-left: $baseline/8;
+}

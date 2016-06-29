@@ -1,0 +1,7 @@
+.list {
+    @extend .unstyled-list;
+    columns: 2;
+    list-style: $baseline;
+    font-weight: 700;
+    line-height: $baseline;
+}

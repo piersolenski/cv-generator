@@ -1,0 +1,14 @@
+.section {
+    padding: $baseline * 2;
+    background: $white;
+}
+
+.section--left {
+    width: 66.666%;
+}
+
+.section--right {
+    width: 33.333%;
+    background: $base-light;
+    padding-top: 3.5rem;
+}

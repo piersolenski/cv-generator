@@ -1,0 +1,132 @@
+{
+    "name": "John Smith",
+    "jobTitle": "Front End Developer",
+    "statement": "<p>Lorem ipsum dolor sit amet, facilisi reprimique nam an, modo voluptaria quo at. Quo te soluta persius fierent, pri no iuvaret appareat. Te quem etiam mel, et vel omnesque vulputate, sale petentium per ex. Suas laudem id vis. Ut velit corpora mei.</p><p> Viris utroque cu nec, no phaedrum consequuntur sea. Commodo facilis ei eum. Ne iusto tollit facete nec, ad pro duis doming. Ex ubique moderatius eum. Vis ei laudem admodum, tibique torquatos incorrupte sea in. Et regione fuisset sed, singulis tincidunt vel te, tibique torquatos incorrupte sea.<p>",
+    "jobs": [
+        {
+            "company": "Company One",
+            "startDate": "Present",
+            "finishDate": "2014",
+            "jobTitle": "Senior Front End Developer",
+            "description": "<p>Lorem ipsum dolor sit amet, ut altera dictas per, id pro sumo definitiones, pri cibo virtute deseruisse an. Debet consulatu vulputate vix no. Ad malorum epicurei usu, sea ex fugit dictas scribentur, id cum scripta volumus. Ea vis esse accumsan sapientem, at eam mundi partiendo rationibus, vim verear tibique cu. Cum eu ridens menandri repudiandae, equidem fastidii menandri te quo, ea pro vero viderer indoctum. Rebum invenire qui ut, eum ei modus nonumes. Ei nec sanctus luptatum adipiscing, assum numquam albucius an usu.</p><p>Ad malorum epicurei usu, sea ex fugit dictas scribentur, id cum scripta volumus. Ea vis esse accumsan sapientem, at eam mundi partiendo rationibus.</p>"
+        },
+        {
+            "company": "Company Two",
+            "startDate": "2014",
+            "finishDate": "2013",
+            "jobTitle": "Front End Developer",
+            "description": "<p>Lorem ipsum dolor sit amet, ut altera dictas per, id pro sumo definitiones, pri cibo virtute deseruisse an. Debet consulatu vulputate vix no. Ad malorum epicurei usu, sea ex fugit dictas scribentur, id cum scripta volumus. Ea vis esse accumsan sapientem, at eam mundi partiendo rationibus, vim verear tibique cu. Cum eu ridens menandri repudiandae, equidem fastidii menandri te quo, ea pro vero viderer indoctum. Rebum invenire qui ut, eum ei modus nonumes. Ei nec sanctu.</p>"
+        },
+        {
+            "company": "Company Three",
+            "startDate": "2014",
+            "finishDate": "2012",
+            "jobTitle": "Junior Front End Developer",
+            "description": "<p>Lorem ipsum dolor sit amet, ut altera dictas per, id pro sumo definitiones, pri cibo virtute deseruisse an. Debet consulatu vulputate vix no. Ad malorum epicurei usu, sea ex fugit dictas scribentur, id cum scripta volumus. Ea vis esse accumsan sapientem, at eam mundi partiendo.</p>"
+        }
+    ],
+    "education": [
+        {
+            "establishment": "University Of Your University",
+            "startDate": "2012",
+            "finishDate": "2009",
+            "description": "Some killer degree."
+        },
+        {
+            "establishment": "Your School",
+            "startDate": "2009",
+            "finishDate": "2007",
+            "description": "Some dope qualifications."
+        }
+    ],
+    "contact": [
+        {
+            "method": "website",
+            "name": "http://johnsmith.com",
+            "link": "http://johnsmith.com"
+        },
+        {
+            "method": "email",
+            "name": "johnsmith@gmail.com",
+            "link": "mailto:johnsmith@gmail.com"
+        },
+        {
+            "method": "phone",
+            "name": "+44(0)76 531 564",
+            "link": "tel:+44(0)76 531 564"
+        },
+        {
+            "method": "github",
+            "name": "johnsmith",
+            "link": "https://github.com/johnsmith"
+        },
+        {
+            "method": "linked-in",
+            "name": "johnsmith",
+            "link": "https://www.linkedin.com/in/johnsmith"
+        },
+        {
+            "method": "codepen",
+            "name": "johnsmith",
+            "link": "http://codepen.io/johnsmith"
+        }
+    ],
+    "skills": [
+        {
+            "skill": "HTML5 & SASS",
+            "level": "100%"
+        },
+        {
+            "skill": "Javascript (ES6+)",
+            "level": "80%"
+        },
+        {
+            "skill": "Angular",
+            "level": "80%"
+        },
+        {
+            "skill": "jQuery",
+            "level": "100%"
+        },
+        {
+            "skill": "React",
+            "level": "60%"
+        },
+        {
+            "skill": "Design",
+            "level": "100%"
+        },
+        {
+            "skill": "Electron",
+            "level": "80%"
+        },
+        {
+            "skill": "Node",
+            "level": "80%"
+        },
+        {
+            "skill": "Photoshop",
+            "level": "80%"
+        },
+        {
+            "skill": "Git",
+            "level": "80%"
+        }
+    ],
+    "clients": [
+        "Client 1",
+        "Client 2",
+        "Client 3",
+        "Client 4",
+        "Client 5",
+        "Client 6"
+    ],
+    "interests": [
+        "Interest 1",
+        "Interest 2",
+        "Interest 3",
+        "Interest 4",
+        "Interest 5",
+        "Interest 6"
+    ]
+}

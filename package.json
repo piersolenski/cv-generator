@@ -1,0 +1,27 @@
+{
+  "name": "cv-generator",
+  "version": "2.0.0",
+  "description": "A little app for generating resumes.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "author": "Piers Olenski",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "2.9.11",
+    "del": "^2.2.0",
+    "gulp": "3.9.0",
+    "gulp-autoprefixer": "3.1.0",
+    "gulp-base64": "^0.1.3",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-csso": "^1.1.0",
+    "gulp-htmlmin": "^2.0.0",
+    "gulp-if": "^2.0.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "watchify": "3.4.0"
+  }
+}
