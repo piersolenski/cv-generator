@@ -13,12 +13,15 @@ h3 {
 h1 {
     font-size: 3em;
     color: $base;
+    margin: 0 0 $baseline/2;
+    line-height: 1em;
 }
 
 h2 {
     font-size: 1.52em;
     color: $base-medium;
     letter-spacing: .2rem;
+    margin: 0;
 }
 
 h3 {
@@ -35,7 +38,7 @@ h3 {
         background: $base-medium;
         height: 1px;
         width: 100%;
-        margin-top: .625rem;
+        margin-top: calc(#{$baseline/2} - .5px);
         z-index: -1;
 
     }
