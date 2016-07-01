@@ -5,24 +5,24 @@
     "jobs": [
         {
             "company": "Company One",
-            "startDate": "Present",
+            "startDate": "2012",
             "finishDate": "2014",
-            "jobTitle": "Senior Front End Developer",
-            "description": "<p>Lorem ipsum dolor sit amet, ut altera dictas per, id pro sumo definitiones, pri cibo virtute deseruisse an. Debet consulatu vulputate vix no. Ad malorum epicurei usu, sea ex fugit dictas scribentur, id cum scripta volumus. Ea vis esse accumsan sapientem, at eam mundi partiendo rationibus, vim verear tibique cu. Cum eu ridens menandri repudiandae, equidem fastidii menandri te quo, ea pro vero viderer indoctum. Rebum invenire qui ut, eum ei modus nonumes. Ei nec sanctus luptatum adipiscing, assum numquam albucius an usu.</p><p>Ad malorum epicurei usu, sea ex fugit dictas scribentur, id cum scripta volumus. Ea vis esse accumsan sapientem, at eam mundi partiendo rationibus.</p>"
+            "jobTitle": "Junior Front End Developer",
+            "description": "<p>Lorem ipsum dolor sit amet, ut altera dictas per, id pro sumo definitiones, pri cibo virtute deseruisse an. Debet consulatu vulputate vix no. Ad malorum epicurei usu, sea ex fugit dictas scribentur, id cum scripta volumus. Ea vis esse accumsan sapientem, at eam mundi partiendo.</p>"
         },
         {
             "company": "Company Two",
-            "startDate": "2014",
-            "finishDate": "2013",
+            "startDate": "2013",
+            "finishDate": "2014",
             "jobTitle": "Front End Developer",
             "description": "<p>Lorem ipsum dolor sit amet, ut altera dictas per, id pro sumo definitiones, pri cibo virtute deseruisse an. Debet consulatu vulputate vix no. Ad malorum epicurei usu, sea ex fugit dictas scribentur, id cum scripta volumus. Ea vis esse accumsan sapientem, at eam mundi partiendo rationibus, vim verear tibique cu. Cum eu ridens menandri repudiandae, equidem fastidii menandri te quo, ea pro vero viderer indoctum. Rebum invenire qui ut, eum ei modus nonumes. Ei nec sanctu.</p>"
         },
         {
             "company": "Company Three",
             "startDate": "2014",
-            "finishDate": "2012",
-            "jobTitle": "Junior Front End Developer",
-            "description": "<p>Lorem ipsum dolor sit amet, ut altera dictas per, id pro sumo definitiones, pri cibo virtute deseruisse an. Debet consulatu vulputate vix no. Ad malorum epicurei usu, sea ex fugit dictas scribentur, id cum scripta volumus. Ea vis esse accumsan sapientem, at eam mundi partiendo.</p>"
+            "finishDate": "Present",
+            "jobTitle": "Senior Front End Developer",
+            "description": "<p>Lorem ipsum dolor sit amet, ut altera dictas per, id pro sumo definitiones, pri cibo virtute deseruisse an. Debet consulatu vulputate vix no. Ad malorum epicurei usu, sea ex fugit dictas scribentur, id cum scripta volumus. Ea vis esse accumsan sapientem, at eam mundi partiendo rationibus, vim verear tibique cu. Cum eu ridens menandri repudiandae, equidem fastidii menandri te quo, ea pro vero viderer indoctum. Rebum invenire qui ut, eum ei modus nonumes. Ei nec sanctus luptatum adipiscing, assum numquam albucius.</p><p>Ad malorum epicurei usu, sea ex fugit dictas scribentur, id cum scripta volumus. Ea vis esse accumsan sapientem, at eam mundi partiendo rationibus.</p>"
         }
     ],
     "education": [
